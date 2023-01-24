@@ -107,7 +107,7 @@ body {
     width: 170px;
     height: 46px;
     border: none;
-    margin-left: 46px;
+    margin: 10px 0 0 46px;
     /*Edição texto*/
     font-weight: 400;
     font-size: 14px;
