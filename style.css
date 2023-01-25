@@ -30,6 +30,9 @@ body {
     gap: 32px;
     padding-left: 270px;
 }
+.menu-nav li a { 
+    color: #2F2325;
+}
 .logo-nav img { 
     height: 35px;
 }
