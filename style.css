@@ -184,7 +184,7 @@ body {
         margin: 3% 20%;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 641px) and (max-width: 1023px){
     #container { 
         max-width: 90%;
         display: block;
@@ -226,17 +226,17 @@ body {
     }
     .produtos-venda ul { 
         display: flex;
-        flex-direction: column;
-        font-size: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1.3rem;
     }
     .produtos-venda img { 
-        height: 400px;
+        height: 200px;
     }
     .button { 
-        margin: 3% 25%;
-        width: 50%;
-        height: 40%;
-        font-size: 1.5rem;
+        margin: 3% 20%;
+        height: 50%;
+        font-size: 1rem;
     }
     footer { 
         font-size: 1.5rem;
