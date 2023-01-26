@@ -242,24 +242,7 @@ body {
         font-size: 1.5rem;
     }
 }
-@media screen and (min-width: 1024px){
-    #container {
-        display: block;
-        margin: 0 auto;
-    }
-    .cabecalho { 
-        justify-content: center;
-    }
-    .sobre-loja img {
-        width: 300px;
-        display: block;
-        margin: 0 auto;
-    }
-    .titulo-site{
-        padding: 1% 20%;
-    }
 
-}
 
 
 
