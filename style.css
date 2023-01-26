@@ -110,7 +110,7 @@ body {
     width: 170px;
     height: 46px;
     border: none;
-    margin: 10px 0 0 46px;
+    margin: 3% 17%;
     /*Edição texto*/
     font-weight: 400;
     font-size: 14px;
@@ -132,163 +132,56 @@ body {
     height: 70px;
 }
 
-/*Media Queries*/  
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-    #container { 
-        max-width: 575.98px;
+/*Media Queries*/ 
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    #container {
+        max-width: 90%;
         display: block;
-        margin-bottom: 0;
     }
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
+    .cabecalho { 
+        display: block;
+
+    }
+    .logo-nav img { 
+        height: 30px;
+        display: block;
+        margin: 4% auto;
         padding: 0;
-        gap: 0;
     }
     .menu-nav ul {
         padding: 0;
     }
-    .menu-nav li {
-        margin: 0 auto;
-        align-items: center;
-    }
-    .carrinho-de-compras {
-        margin-bottom: 10px;
-        margin-left: 0;
-        padding: 0;
-        height: 32px;
-        width: 32px;
-
-    }
-
-    #conteudo-principal {
-        display: block;
-        padding: 0;
-        width: 100%;    
-    }
-    .sobre-loja { 
-        background-color: #F9D9AA;
-        margin-top: 0;
-        padding: 0;
-    }
-    .sobre-loja img {
-        width: 300px;
-        height: 350px;
-        margin: 0 30px;
-    }
-    .titulo-site { 
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }
-    .produtos-venda ul{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .produtos-venda li { 
-        list-style: none;
-        margin-bottom: 24px;
-    }
-    .imgem-produtos { 
-        margin: 10px 5px;
-    }
-    .button { 
-        margin: 10px 0 0 100px;
-    }
-
-}
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #container {
-        max-width: 991.98px;
-        display: block;
-        margin-bottom: 0;
-    }
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        gap: 0;
-    }
-    .menu-nav ul {
-        font-size: 18px;
-        padding: 20px 0;
-    }
-    .carrinho-de-compras {
-        margin-bottom: 10px;
-        margin-left: 0;
-        padding: 0;
-        height: 50px;
-        width: 50px;
-    }
-    .sobre-loja img {
-        width: 400px;
-        height: 350px;
-        display: block;
+    .menu-nav li { 
+        font-size: 0.9rem;
         margin: 0 auto;
     }
+    .carrinho-de-compras img { 
+        height: 30px;
+        display: block;
+        margin: 25px 100px;
+    }
     .titulo-site { 
-        font-size: 20px;
-        padding-top: 10px;
-        text-align: center;
+        margin: 0 auto;
+        padding: 0 3%;
+        font-size: 1rem;
     }
-    .produtos-venda ul{
-        display: flex;
-        flex-direction: column;
-
+    .sub-titulo {
+        margin: 0 auto;
+        font-size: 0.9rem;
     }
-    .produtos-venda li { 
-        list-style: none;
-        margin-bottom: 24px;
+    .sobre-loja img {
+        width: 80%;
+        height: 10%;
+        margin: 1% 10%;
     }
-    .imgem-produtos { 
-        margin: 10px 5px;
+    .produtos-venda ul { 
+        display: block;
     }
     .button { 
-        margin: 10px 0 0 100px;
-    }
-
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    #container {
-        max-width: 2000px;
-    }
-    .cabecalho {
-        margin: 40px;
-    }
-
-    .sobre-loja img {
-        width: 450px;
-        height: 300px;
-    }
-    .titulo-site { 
-
-        margin-left: 40px;
-        text-align: center;
-    }
-    .sub-titulo {    
-        font-size: 25px;
-    }
-
-    .produtos-venda ul{
-
-        flex-wrap: wrap;
-        margin: 0 20px;
-    }
-    
-    .button {
-        margin: 10px 0 0 100px;
+        margin: 3% 20%;
     }
 }
+
+
 
 
