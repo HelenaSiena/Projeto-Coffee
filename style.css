@@ -30,8 +30,11 @@ body {
     gap: 32px;
     padding-left: 270px;
 }
-.menu-nav li a { 
+.menu-nav li a {
     color: #2F2325;
+}
+.menu-nav li a:hover{
+    color: rgb(124, 109, 109);
 }
 .logo-nav img { 
     height: 35px;
@@ -180,6 +183,82 @@ body {
     .button { 
         margin: 3% 20%;
     }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #container { 
+        max-width: 90%;
+        display: block;
+    }
+    .cabecalho { 
+        display: block;
+    }
+    .logo-nav img { 
+        height: 50px;
+        display: block;
+        margin: 4% auto;
+        padding: 0;
+    }
+    .menu-nav ul {
+        padding: 0;
+    }
+    .menu-nav li { 
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .carrinho-de-compras img { 
+        height: 50px;
+        display: block;
+        margin: 2% 45%;
+    }
+    .titulo-site { 
+        margin: 0 auto;
+        padding: 1% 3%;
+        font-size: 2rem;
+    }
+    .sub-titulo {
+        margin: 1% auto;
+        font-size: 2rem;
+    }
+    .sobre-loja img {
+        width: 70%;
+        height: 10%;
+        margin: 1% 10%;
+    }
+    .produtos-venda ul { 
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .produtos-venda img { 
+        height: 400px;
+    }
+    .button { 
+        margin: 3% 25%;
+        width: 50%;
+        height: 40%;
+        font-size: 1.5rem;
+    }
+    footer { 
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    #container {
+        display: block;
+        margin: 0 auto;
+    }
+    .cabecalho { 
+        justify-content: center;
+    }
+    .sobre-loja img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    .titulo-site{
+        padding: 1% 20%;
+    }
+
 }
 
 
